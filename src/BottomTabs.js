@@ -19,7 +19,7 @@ const BottomTabs = () => {
             if (route.name === 'Home') iconName = 'home-outline';
             else if (route.name === 'Profile') iconName = 'person-outline';
             else if (route.name === 'Settings') iconName = 'settings-outline';
-            else if (route.name === 'ContactUs') iconName = 'notifications-outline';
+            else if (route.name === 'Contacts') iconName = 'notifications-outline';
 
 
             return <Icon name={iconName} size={size} color={color} />;
@@ -32,7 +32,7 @@ const BottomTabs = () => {
         <Tab.Screen name="Home" component={HomeScreen} />
         <Tab.Screen name="Profile" component={ProfileScreen} />
         <Tab.Screen name="Settings" component={SettingsScreen} />
-        <Tab.Screen name="ContactUs" component={ContactUsScreen} />
+        <Tab.Screen name="Contacts" component={ContactUsScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );

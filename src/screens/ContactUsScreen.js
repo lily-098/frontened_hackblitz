@@ -13,7 +13,7 @@ const ContactUsScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Contact Us</Text>
+      <Text style={styles.header}>For any Query...</Text>
       {contactOptions.map((option) => (
         <TouchableOpacity key={option.id} style={styles.option} onPress={() => Linking.openURL(option.url)}>
           <Ionicons name={option.icon} size={24} color="#007AFF" style={styles.icon} />
